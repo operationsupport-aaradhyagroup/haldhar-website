@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products & Varieties | HALDHAR</title>
+  <meta name="description"
+    content="Explore certified high-yielding seeds, fertilizers, pesticides, and crop protection products at HALDHAR Jabalpur." />
+  <meta name="keywords"
+    content="agri inputs Jabalpur, seeds store, fertilizers, pesticides, paddy seeds, wheat seeds, crop protection" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://haldhar.com/products.html">
+  <meta property="og:title" content="Products & Varieties | HALDHAR">
+  <meta property="og:description"
+    content="Explore certified high-yielding seeds, fertilizers, pesticides, and crop protection products at HALDHAR Jabalpur.">
+  <meta property="og:image" content="https://haldhar.com/images/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://haldhar.com/products.html">
+  <meta property="twitter:title" content="Products & Varieties | HALDHAR">
+  <meta property="twitter:description"
+    content="Explore certified high-yielding seeds, fertilizers, pesticides, and crop protection products at HALDHAR Jabalpur.">
+  <meta property="twitter:image" content="https://haldhar.com/images/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="canonical" href="https://haldhar.com/products.html" />
+  <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <style>
+    /* Products Grid Styles */
+    .product-showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+    .prod-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .prod-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow);
+      border-color: var(--green);
+    }
+    .prod-img-box {
+      width: 100%;
+      height: 220px;
+      background: #f8f9fa;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .prod-img-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      transition: transform 0.4s ease;
+    }
+    .prod-card:hover .prod-img-box img {
+      transform: scale(1.06);
+    }
+    .prod-content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .prod-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+    .prod-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .prod-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-top: auto;
+    }
+    .prod-price {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--green);
+    }
+    .section-title-badge {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--orange);
+      margin-bottom: 8px;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-container">
+      <span class="topbar-address"><a href="https://maps.app.goo.gl/yAD4jvV2ftftcKU56" target="_blank">Plot no. 3/18, Chowk, Deendayal Upadhyay Marg, near Pachori Petrol Pump, Jabalpur, Madhya Pradesh 482002</a></span>
+      <span class="topbar-contact">
+        <a href="tel:+918827799186">+91 88277 99186</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="index.html">
+          <img src="images/haldhar-logo.svg" alt="HALDHAR Logo" style="height: 50px; width: auto;"
+            onerror="this.outerHTML='<span class=\'logo-mark\'>H</span> HALDHAR'">
+        </a>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="partners.html">Our Partners</a>
+          <a href="products.html" class="active">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-right">
+          <a href="contact.html" class="btn btn-primary">Get Advice</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>Our Product Catalogue</h1>
+        <p>Explore certified high-yielding hybrid seeds, premium crop protection solutions, and growth regulators in Jabalpur.</p>
+      </div>
+    </div>
+
+    <!-- Section 1: Premium Field Crop Seeds -->
+    <section style="padding: 60px 0;">
+      <div class="container">
+        <span class="section-title-badge">Certified Seeds & Hybrids</span>
+        <h2>Featured Crop Varieties</h2>
+        <p style="color: var(--muted); margin-bottom: 20px;">High-germination seeds engineered for maximum yield and strong disease resistance.</p>
+        
+        <div class="product-showcase-grid">
+          <!-- Item 1: Paddy -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/paddy.png" alt="Paddy Seeds" onerror="this.src='images/placeholder-feat-seeds.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Paddy (Dhan) Seeds</h3>
+                <p class="prod-desc">High-performing hybrid paddy with uniform tillering, disease tolerance, and consistent output.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹480 / kg</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Paddy%20Seeds" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Wheat -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/wheat.png" alt="Wheat Seeds" onerror="this.src='images/placeholder-feat-disease.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Wheat (Gehu) Seeds</h3>
+                <p class="prod-desc">Improved premium wheat seeds offering excellent grain weight, robust plant health, and high market value.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹390 / kg</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Wheat%20Seeds" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Maize -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/maize.png" alt="Maize Seeds" onerror="this.src='images/placeholder-feat-nutrition.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Maize (Makka) Seeds</h3>
+                <p class="prod-desc">High-yield hybrid maize with bold grains, uniform cobs, and exceptional performance across seasons.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹650 / kg</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Maize%20Seeds" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Mustard -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/mustard.png" alt="Mustard Seeds" onerror="this.src='images/placeholder-cat-seed.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Mustard (Sarson) Seeds</h3>
+                <p class="prod-desc">Premium mustard hybrid developed for high oil content, early maturity, and strong disease resistance.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹540 / kg</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Mustard%20Seeds" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Crop Protection & Growth Regulators -->
+    <section class="light" style="padding: 60px 0;">
+      <div class="container">
+        <span class="section-title-badge">Crop Protection & Nutrition</span>
+        <h2>PGR, Insecticides, Fungicides & Herbicides</h2>
+        <p style="color: var(--muted); margin-bottom: 20px;">Advanced chemical and biological solutions to keep your crops safe and healthy.</p>
+        
+        <div class="product-showcase-grid">
+          <!-- Item 1: Tarang (PGR) -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/tarang.png" alt="Tarang PGR" onerror="this.src='images/placeholder-cat-pgr.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Tarang (PGR)</h3>
+                <p class="prod-desc">Scientifically formulated plant growth regulators to stimulate root development, improve flowering, and enhance yield.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹450 / pack</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Tarang%20PGR" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Akeera (Insecticide) -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/akeera.png" alt="Akeera Insecticide" onerror="this.src='images/placeholder-cat-fert.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Akeera (Insecticide)</h3>
+                <p class="prod-desc">Powerful, fast-acting insecticide solutions designed to protect crops from sucking pests, caterpillars, and thrips.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹680 / pack</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Akeera%20Insecticide" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Aadheen (Fungicide) -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/aadheen.png" alt="Aadheen Fungicide" onerror="this.src='images/placeholder-feat-disease.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Aadheen (Fungicide)</h3>
+                <p class="prod-desc">Reliable fungal disease protection for common crop threats including blast, blight, powdery mildew, and rust.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹550 / pack</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Aadheen%20Fungicide" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Bhoodhan (Herbicide) -->
+          <div class="prod-card">
+            <div class="prod-img-box">
+              <img src="images/bhoodhan32.png" alt="Bhoodhan Herbicide" onerror="this.src='images/placeholder-feat-seeds.jpg'">
+            </div>
+            <div class="prod-content">
+              <div>
+                <h3 class="prod-title">Bhoodhan (Herbicide)</h3>
+                <p class="prod-desc">Selective and non-selective weed control solutions for pre- and post-emergent use to reduce manual weeding costs.</p>
+              </div>
+              <div class="prod-footer">
+                <span class="prod-price">₹490 / pack</span>
+                <a href="https://wa.me/918827799186?text=I%20want%20to%20know%20more%20about%20Bhoodhan%20Herbicide" target="_blank" class="btn btn-outline" style="padding: 8px 14px; font-size: 13px;">Enquire</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="padding: 60px 0;">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2>Looking for a Specific Brand or Product?</h2>
+            <p>Visit our store in Jabalpur or chat with our experts on WhatsApp for live stock availability and current pricing.</p>
+          </div>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end;">
+            <a href="https://wa.me/918827799186" target="_blank" class="btn btn-light">WhatsApp Advisory</a>
+            <a href="contact.html" class="btn btn-outline" style="color: white; border-color: white;">Contact Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>HALDHAR</h3>
+          <p>Trusted agri input store offering seeds, fertilizers, pesticides, crop protection products and farmer advisory in Jabalpur, Madhya Pradesh.</p>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products.html">Seeds</a></li>
+            <li><a href="products.html">Fertilizers</a></li>
+            <li><a href="products.html">Pesticides</a></li>
+            <li><a href="products.html">PGR Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="partners.html">Our Partners</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Get Advice</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Information</h4>
+          <ul class="footer-contact">
+            <li style="margin-bottom: 12px; line-height: 1.5;"><a href="https://maps.app.goo.gl/yAD4jvV2ftftcKU56" target="_blank">Plot no. 3/18, Chowk, Deendayal Upadhyay Marg, near Pachori Petrol Pump, Jabalpur, Madhya Pradesh 482002</a></li>
+            <li class="footer-numbers">
+              <a href="tel:+918827799186">+91 88277 99186</a>
+            </li>
+            <li><a href="mailto:krishidhanagri@gmail.com">krishidhanagri@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Universal Footer Bottom -->
+      <div class="copy" style="flex-direction: column; text-align: center;">
+        <div class="legal-links" style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-bottom: 12px; font-size: 14px;">
+          <a href="privacy-policy.html" style="color: var(--muted); text-decoration: none;">Privacy Policy</a> | 
+          <a href="return-policy.html" style="color: var(--muted); text-decoration: none;">Return Policy</a> | 
+          <a href="terms-conditions.html" style="color: var(--muted); text-decoration: none;">Terms & Conditions</a> | 
+          <a href="shipping-policy.html" style="color: var(--muted); text-decoration: none;">Shipping Policy</a> | 
+          <a href="Cancellation-Policy.html" style="color: var(--muted); text-decoration: none;">Cancellation Policy</a>
+        </div>
+        <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+          <span>© 2026 KRISHIDHAN AGRI BUSINESS PRIVATE LIMITED. All Rights Reserved.</span>
+          <span>Developed & Managed by <a href="https://www.nexoraautomations.com/" target="_blank" rel="noopener noreferrer" style="color: var(--green); font-weight: 600;">nexoraautomations.com</a></span>
+          <span>A Kisan Suvidha Company</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

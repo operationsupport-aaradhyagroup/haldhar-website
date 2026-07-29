@@ -1,0 +1,3 @@
+@echo off
+echo Starting HALDHAR website server...
+npx http-server -p 8000
